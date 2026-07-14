@@ -1,35 +1,43 @@
-Clinic Appointment Management System
+CLINIC APPOINTMENT MANAGEMENT SYSTEM
 
 Name: Esosa Bangira
-Student Number : 303070741
+Student Number: 303070741
 Course Code: IY499
 Module: Introduction to Programming
 
-Declaration of Own Work:
+DECLARATION OF OWN WORK
+
 I confirm that this assignment is my own work.
 Where I have referred to online sources, I have provided comments detailing the reference and included a link to the source.
 
-Program Description:
-This program is a text-based Clinic Appointment Management System written in Python. It allows a clinic user to add patient appointments, view all appointments, search for appointments by patient name, sort appointments by date, patient name or doctor name, update appointment statuses, save appointment data to a CSV file and load saved appointments when the program starts again.
+PROGRAM DESCRIPTION
 
-The program uses lists and dictionaries to store appointment records. It also uses functions to separate the code into smaller sections, making the program easier to understand and maintain. File input and output is included through the appointments.csv file. A simple recursive function is also used to count the total number of appointments for the summary section.
+The Clinic Appointment Management System is a text-based Python application designed to help a small clinic manage patient appointments. The user can add, view, search, sort, edit and delete appointment records. Appointment statuses can also be changed to booked, completed or cancelled.
 
-Packages/Libraries Used:
+The program stores appointment information using a list of dictionaries. Each record contains an appointment ID, patient details, doctor name, reason, date, time and status. A linear search algorithm is used to find records, while a bubble sort algorithm arranges appointments by date, patient name, doctor name or status.
+
+Appointment data can be saved to and loaded from a CSV file. The program checks user input, rejects impossible dates and times, prevents active double bookings and handles invalid file data without crashing. A recursive function is used to count appointments, and a text-based chart displays an appointment summary.
+
+PACKAGES AND LIBRARIES USED
+
 csv
 os
+datetime
 
-No external packages are required.
+These are included with Python, so no external packages are required.
 
-Installation Instructions:
-1. Make sure Python 3 is installed on the computer.
-2. Download or unzip the project folder.
-3. Open Terminal.
-4. Move into the project folder.
+INSTALLATION INSTRUCTIONS
 
-How to Run the Program:
-Run the following command:
+1. Install Python 3.
+2. Download and unzip the project folder.
+3. Open Terminal and move into the project folder.
+
+HOW TO RUN
+
+Run:
 
 python3 main.py
 
-Repository Link:
+REPOSITORY LINK
+
 https://github.com/gsb553/IY499-Clinic-Appointment-System
